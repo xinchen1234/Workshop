@@ -1,0 +1,53 @@
+1. Check out the code reviewer guidelines for software engineers at Yelp and Microsoft (Visual Studio Mobile team). 
+What concepts are similar between the companies (List at least two)? What are some key differences (List at least two)?
+In general, what items should be present in a code review checklist for a development team?
+
+Similar concepts:
+a. They both think code reviewer is just give a feedback or discussion instead of an order. Code owner
+and reviewer should respect each other. For example, the reviewer's feedback should be actionable
+and concrete, not overly opinionated and theoretical, and along with the feedback could add more emoji so that
+code onwer might feel better and feel more relax. And the owener should understand every piece of feedback from the
+reviewer and respond to each actionable piece. 
+b.review feedback is better to be small chunks. This keeps logic clear and accurate, and it is also for code onwer
+to read and get the point where he/she needs to imporve.
+c. owner should provide comments on code for reveiwer's easier understand.
+
+Key Differences:
+a. The software engineers on microsoft did not mention the code safety, but the software enginners on Yelp did
+say make sure the code is safe to uploading before doing that.
+b. The software enginners on Yelp thinks code reviewer has the same responsibility as the code woner,responsible for making sure that the code is correct,
+well-architected, secure, and maintainable.  The software enginners on microsoft did not mention that.
+
+In general, those items should be present in a code review checklist:
+a. Identify a primary reviewer
+b. Owner and Reviewer should respect to each other
+c. Style check on the code
+d. In-line comments
+e. Short chunk feedback
+f. Testing on the code
+
+
+
+2. Find an example of a "good" code review. Provide a link to the review and explain why you found the review beneficial.
+
+https://codereview.stackexchange.com/a/291442
+
+This one I find out is pretty good. This reviewer has a clear head for each of the owner's questions, 
+and there are many bullet points under each heading to detail what can be changed, and explain why these changes need to be made.
+It also explains some differences that may exist between different language types that cause these problems for owners.
+And these changes are all changes in details, there are no major changes in the main code, and the feedback of this play is all actionable, 
+not just empty talk that this can be changed, that can be changed, but no actual solution. 
+
+
+3. Find an example of a "bad" code review. Provide a link to the review and briefly explain why you found the review not beneficial. 
+In addition, include recommendations for improvement to the review feedback.
+
+https://codereview.stackexchange.com/a/291381
+
+I don’t think this feedback is useful. First of all, there are too many words and too dense. 
+It will make people look intimidated and not want to read it at first glance, because it is all text. 
+Then there is no actual actionable feedback in the entire article. 
+It just finds out the owner's problem but does not tell him how to actually solve it. 
+I think the reviewer can put an obvious title in front of each question to distinguish each area, so that visually speaking, 
+people who read the feedback will not have so much pressure, and they will only feel that each block only has a small paragraph of text. 
+Then add some practical feedback, not just pointing out his mistakes, but also giving him some feasible solutions.
